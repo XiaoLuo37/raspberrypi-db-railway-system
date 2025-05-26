@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>561</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(153, 193, 241);
+border-radius:20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_trainid">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>9</y>
+       <width>231</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(237, 51, 59);
+	font: 24pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>K775</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_from">
+     <property name="geometry">
+      <rect>
+       <x>45</x>
+       <y>57</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	font: 24pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>北 京 西 站</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_to">
+     <property name="geometry">
+      <rect>
+       <x>345</x>
+       <y>61</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	font: 24pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>上 海 虹 桥</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_time">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>115</y>
+       <width>311</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	font: 18pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>2024年08月05日 19:23开</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_seatid">
+     <property name="geometry">
+      <rect>
+       <x>351</x>
+       <y>115</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	
+	font: 18pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>K775E04</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_warn_title">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>202</y>
+       <width>151</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	font: 16pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>仅供报销使用</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_warn">
+     <property name="geometry">
+      <rect>
+       <x>14</x>
+       <y>239</y>
+       <width>391</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border: 2px dashed;
+	font: 14pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>                    报销凭证 遗失不补
+                 退票改签时须交回车站</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_id">
+     <property name="geometry">
+      <rect>
+       <x>193</x>
+       <y>207</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	font: 18pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>43011280039</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_code">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>212</y>
+       <width>121</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border:none;
+	background-color: rgba(255, 255, 255,0);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="svg.qrc">
+       <normaloff>:/src/ICONS/code.svg</normaloff>:/src/ICONS/code.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_right_icon">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>59</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="svg.qrc">
+       <normaloff>:/src/ICONS/exchange.svg</normaloff>:/src/ICONS/exchange.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_close">
+     <property name="geometry">
+      <rect>
+       <x>246</x>
+       <y>8</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_mi">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>165</y>
+       <width>21</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>￥</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_price">
+     <property name="geometry">
+      <rect>
+       <x>42</x>
+       <y>166</y>
+       <width>85</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	font: 16pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>173.5</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_seat">
+     <property name="geometry">
+      <rect>
+       <x>195</x>
+       <y>167</y>
+       <width>85</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	font: 16pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+     </property>
+     <property name="text">
+      <string>二 等 座</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="svg.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Button_close</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>540</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>577</x>
+     <y>24</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

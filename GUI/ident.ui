@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>450</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>450</width>
+      <height>350</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>450</width>
+      <height>350</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame{
+	border-radius: 20px;
+}
+QLineEdit{
+	background-color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 10px;
+	
+	font: 16pt &quot;Noto Sans Brahmi&quot;;
+}
+QLabel{
+	font: 16pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#frame_2{
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+	background-color: rgb(28, 113, 216);
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_notice">
+        <property name="geometry">
+         <rect>
+          <x>157</x>
+          <y>12</y>
+          <width>151</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>权  限  操  作</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Button_close">
+        <property name="geometry">
+         <rect>
+          <x>327</x>
+          <y>4</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#Button_close{
+	border:none;
+	background-color: rgba(255, 255, 255,0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>5</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(246, 245, 244);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="Button_enter">
+        <property name="geometry">
+         <rect>
+          <x>329</x>
+          <y>180</y>
+          <width>71</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border: 1px solid;
+	border-radius: 10px;
+	font: 12pt &quot;Noto Sans Brahmi&quot;;
+}
+QPushButton:pressed{
+	padding-top: 5px;
+	padding-left: 5px;
+}</string>
+        </property>
+        <property name="text">
+         <string>确 定</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_code_infor">
+        <property name="geometry">
+         <rect>
+          <x>23</x>
+          <y>110</y>
+          <width>111</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>验   证   码</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_root_infor">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>管 理 账 号</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_root">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>30</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+	font: 16pt &quot;Noto Sans Brahmi&quot;;
+	background-color: rgb(255, 255, 255);
+}</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_code">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>100</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+	font: 16pt &quot;Noto Sans Brahmi&quot;;
+	background-color: rgb(255, 255, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_code">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>100</y>
+          <width>71</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page"/>
+        <widget class="QWidget" name="page_3">
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>-4</y>
+            <width>85</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+	color: rgb(237, 51, 59);
+	font: 14pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>  空</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_2">
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>85</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+	color: rgb(237, 51, 59);
+	font: 14pt &quot;Noto Sans Brahmi&quot;;
+}</string>
+          </property>
+          <property name="text">
+           <string>  错 误</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGraphicsView" name="graphicsView">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>173</y>
+          <width>120</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Button_changeing">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>192</y>
+          <width>131</width>
+          <height>35</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	font: 12pt &quot;Noto Sans Brahmi&quot;;
+	
+	color: rgb(61, 56, 70);
+	background-color: rgba(255, 255, 255,0);
+}
+QPushButton:hover{
+	color: rgb(28, 113, 216);
+}
+QPushButton:pressed{
+	padding-top: 3px;
+	padding-left: 3px;
+}</string>
+        </property>
+        <property name="text">
+         <string>看不清？换一张</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#frame_4{
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+	background-color: rgb(28, 113, 216);
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="svg.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Button_close</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>444</x>
+     <y>43</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>505</x>
+     <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

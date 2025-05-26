@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="src">
+    <file>ICONS/turn.svg</file>
+    <file>ICONS/turn2.svg</file>
+    <file>ICONS/back.svg</file>
+    <file>ICONS/buy.svg</file>
+    <file>ICONS/cancel.svg</file>
+    <file>ICONS/change.svg</file>
+    <file>ICONS/code.svg</file>
+    <file>ICONS/enter.svg</file>
+    <file>ICONS/exchange.svg</file>
+    <file>ICONS/header.svg</file>
+    <file>ICONS/location.svg</file>
+    <file>ICONS/man.svg</file>
+    <file>ICONS/message.svg</file>
+    <file>ICONS/reverse.svg</file>
+    <file>ICONS/revocate.svg</file>
+    <file>ICONS/ticket.svg</file>
+    <file>ICONS/woman.svg</file>
+    <file>ICONS/cancel.svg</file>
+  </qresource>
+</RCC>
